@@ -9,12 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    
+    @IBAction func showMessage(sender: UIButton) {
+        let alertcontroller = UIAlertController(title: "food", message: "idk", preferredStyle: UIAlertController.Style.alert)
     }
-
-
+   
+    
+    @IBAction func salad(_ sender: UIButton) {
+    }
+    @IBAction func pizza(_ sender: UIButton) {
+    }
+    @IBAction func mango(_ sender: UIButton) {
+    }
+    @IBAction func donut(_ sender: UIButton) {
+    }
 }
 
